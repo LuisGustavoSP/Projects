@@ -7,18 +7,15 @@ function toggleMode () {
   if(html.classList.contains('light')) {
 
   img.setAttribute("src", "./assets/avatar-light.png")
-  alt.setAttribute("alt", "Foto de Mayk Brito Sorrindo, usando óculos escuro preto, e jaqueta preta, e fundo gradiente roxo e azul")
-
+  img.setAttribute(
+    "alt",
+    "Foto de Mayk Brito Sorrindo, usando óculos escuro preto, e jaqueta preta, e fundo gradiente roxo e azul")
   } else {
 
   img.setAttribute("src", "./assets/avatar.png")
-  alt.setAttribute("alt")
+  img.setAttribute(
+    "alt",
+    "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, e fundo amarelo.")
   }
 
   }
-
-    //if(html.classList.contains('light')) {
-  //  html.classList.remove('light')
-  // } else {
-  // html.classList.add('light')
-  // }
